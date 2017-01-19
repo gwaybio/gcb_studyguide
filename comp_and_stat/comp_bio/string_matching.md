@@ -40,3 +40,27 @@
      - Move offset `max(c(bad_character, suffix_tree))`
    - Works well when the alphabet is large and complex
      - DNA nucleotide language is not large so it can be improved
+
+### Inexact Search
+
+Searching through a database for any string `P` allowing for `k` number of mismatches
+
+- Suffix Trees and Tries (pronounced "trys")
+  - [Slides by Ben Langmead reviewing them](http://www.cs.jhu.edu/~langmea/resources/lecture_notes/tries_and_suffix_tries.pdf)
+  - Provides a lot of information
+    - Location of substrings in the larger string
+    - Starting positions of all elements in the string
+    - How many of each element are there
+  - Some drawback 
+    - Construction time is O(n^2)
+    - Larger storage than original string O(n^2)
+      - Big problem when database is large
+  - Boyer Moore is preferable for smaller problems that are not done repetitively.
+    - Only O(n) to construct
+    - Searching is sub-linear O(n/m)
+    - Storage only O(m)
+- Suffix arrays
+  - Form the basis of [Burrows-Wheeler Transform](https://en.wikipedia.org/wiki/Burrows%E2%80%93Wheeler_transform)
+    - [Youtube description](https://www.youtube.com/watch?v=4n7NPk5lwbI)
+  
+  
