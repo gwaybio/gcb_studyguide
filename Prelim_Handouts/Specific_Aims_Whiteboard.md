@@ -13,6 +13,6 @@
    * Table with datasets
 * References (At least 10 References)
 
-![][whiteboard_picture.jpg]
+![](whiteboard_picture.jpg?raw=true)
 
 **Look at NIH Reporter**
