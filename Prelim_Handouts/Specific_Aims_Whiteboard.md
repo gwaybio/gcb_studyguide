@@ -1,4 +1,5 @@
 # Specific Aims (1 pages)
+
 * Research Strategy (6 pages)
  * Significance: Innovation (1.5-2) (in Kai's book this is called "Introduction", but Maya does not like that)
  * Research design: 
@@ -12,4 +13,6 @@
    * Table with datasets
 * References (At least 10 References)
 
-Look at NIH Reporter
+![][whiteboard_picture.jpg]
+
+**Look at NIH Reporter**
