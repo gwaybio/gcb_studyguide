@@ -1,4 +1,4 @@
-* Approach
+## Approach
   * Aim
     * Introduction (1 or 2 sentences per bullet point)
       * Motivation/current status quo
@@ -41,3 +41,5 @@
    * Conclusion/ Future Directions
    * Citations
    * Love Notes to Sammy
+
+![](approach_whiteboard.jpg?raw=true)
